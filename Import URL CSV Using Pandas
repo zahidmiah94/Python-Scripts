@@ -1,0 +1,26 @@
+# Import CVSs using Pandas
+[
+
+import pandas as pd
+
+NMI = pd.read_csv('URL')
+
+print(NMI)
+
+]
+
+
+# Import multiple CSVs using pandas 
+[
+
+import pandas as pd
+
+NMI1 = pd.read_csv('https://www.quandl.com/api/v3/datasets/ISM/NONMAN_PRICES.csv?api_key=VL1BrcyknWmgLv8zX8yQ')
+
+print(NMI1);
+
+NMI = pd.read_csv('https://www.quandl.com/api/v3/datasets/ISM/NONMAN_PRICES.csv?api_key=VL1BrcyknWmgLv8zX8yQ')
+
+print(NMI)
+
+]
