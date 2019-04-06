@@ -1,0 +1,27 @@
+#Import url csv and save as csv
+
+[
+
+import pandas as pd
+
+NAME = pd.read_csv('URL')
+
+NAME.to_csv('NAME.CSV');
+
+]
+
+#Import multiple url csv and save as csv
+
+[
+
+import pandas as pd
+
+NAME = pd.read_csv('URL')
+
+NAME.to_csv('NAME.CSV');
+
+NAME2 = pd.read_csv('URL')
+
+NAME2.to_csv('NAME2.CSV');
+
+]
